@@ -9,7 +9,7 @@ def f(x):
 def g(x):
     return np.arctan(x) - 4/(x**2 + 1)
 
-# Finn toppunkt med fsolve (start x=2)
+# Finn toppunkt med fsolve (startgjett x=2)
 x_max = fsolve(g, 2)[0]
 y_max = f(x_max)
 
